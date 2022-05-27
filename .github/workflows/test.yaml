@@ -4,6 +4,6 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
-      - run: dart setup.dart
+      - run: dart setup
       - run: dart main.dart
 
