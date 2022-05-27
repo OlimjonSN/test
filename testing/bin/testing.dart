@@ -1,5 +1,4 @@
-import 'package:testing/testing.dart' as testing;
-
-void main(List<String> arguments) {
-  print('Hello world: ${testing.calculate()}!');
+void main() {
+  int a = 5;
+  print(a * 2);
 }
