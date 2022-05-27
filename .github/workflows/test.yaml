@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: dart-lang/setup-dart@v1.3
-      - run:  dart pub add test --dev
+      
       - run: dart run main.dart
 
