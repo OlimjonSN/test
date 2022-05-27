@@ -4,5 +4,6 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World"
+      - run: dart setup.dart
+      - run: dart main.dart
 
