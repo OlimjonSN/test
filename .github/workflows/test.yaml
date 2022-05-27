@@ -4,6 +4,7 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update
       - run: sudo apt-get install dart
       - run: dart run main.dart
 
